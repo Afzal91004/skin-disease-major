@@ -1,0 +1,59 @@
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.camera-placeholder {
+  text-align: center;
+  padding: 40px;
+  border: 2px dashed #dee2e6;
+  border-radius: 12px;
+  background: white;
+}
+
+.camera-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.start-camera-btn,
+.capture-btn {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-camera-btn:hover,
+.capture-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.webcam {
+  border-radius: 12px;
+  border: 3px solid #007bff;
+  margin-bottom: 16px;
+}
+
+.camera-controls,
+.preview-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.preview-image {
+  max-width: 300px;
+  border-radius: 8px;
+  border: 2px solid #dee2e6;
+}
